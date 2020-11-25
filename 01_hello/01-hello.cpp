@@ -1,3 +1,4 @@
+#if 0
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
@@ -66,3 +67,4 @@ void processInput(GLFWwindow* window)  //检查用户是否按下了返回键(Esc)
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
 }
+#endif

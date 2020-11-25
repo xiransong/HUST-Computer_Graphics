@@ -19,8 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="02-hello_triangle.cpp" />
+    <ClCompile Include="03-shader.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="01-hello.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_s.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3.3.shader.fs" />
+    <None Include="3.3.shader.vs" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
