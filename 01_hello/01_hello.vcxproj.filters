@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="资源文件\pic">
+      <UniqueIdentifier>{be097bb3-b5c9-44dd-945e-c0f2cc8fbec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\shader">
+      <UniqueIdentifier>{70f4adda-a554-4b1e-a05f-04b388e773a4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -27,18 +33,149 @@
     <ClCompile Include="03-shader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="05-transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06-coordinate_systems_multiple.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="07-camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Icosphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2-6-multiple_lights.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyIcosphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader_s.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Icosphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIcosphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="3.3.shader.vs">
-      <Filter>资源文件</Filter>
-    </None>
     <None Include="3.3.shader.fs">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\shader</Filter>
     </None>
+    <None Include="3.3.shader.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="5.1.transform.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="5.1.transform.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="6.3.coordinate_systems.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="6.3.coordinate_systems.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="7.4.camera.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="7.4.camera.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="6.multiple_lights.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="6.multiple_lights.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="6.light_cube.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="6.light_cube.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="0a-freetry.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="0a-freetry.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="vertex.vs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="planet.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="sun.fs">
+      <Filter>资源文件\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pic\awesomeface.png">
+      <Filter>资源文件\pic</Filter>
+    </Image>
+    <Image Include="pic\container.jpg">
+      <Filter>资源文件\pic</Filter>
+    </Image>
+    <Image Include="pic\container2.png">
+      <Filter>资源文件\pic</Filter>
+    </Image>
+    <Image Include="pic\container2_specular.png">
+      <Filter>资源文件\pic</Filter>
+    </Image>
+    <Image Include="pic\icoearth.jpg">
+      <Filter>资源文件\pic</Filter>
+    </Image>
+    <Image Include="pic\icomoon.jpg">
+      <Filter>资源文件\pic</Filter>
+    </Image>
+    <Image Include="pic\icosun.jpg">
+      <Filter>资源文件\pic</Filter>
+    </Image>
+    <Image Include="pic\icosa_earth.bmp">
+      <Filter>资源文件\pic</Filter>
+    </Image>
   </ItemGroup>
 </Project>

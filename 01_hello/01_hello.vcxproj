@@ -21,15 +21,60 @@
   <ItemGroup>
     <ClCompile Include="02-hello_triangle.cpp" />
     <ClCompile Include="03-shader.cpp" />
+    <ClCompile Include="05-transform.cpp" />
+    <ClCompile Include="06-coordinate_systems_multiple.cpp" />
+    <ClCompile Include="07-camera.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="2-6-multiple_lights.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="01-hello.cpp" />
+    <ClCompile Include="Icosphere.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MyIcosphere.cpp" />
+    <ClCompile Include="Primitive.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="Icosphere.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MyIcosphere.h" />
+    <ClInclude Include="Primitive.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="shader_m.h" />
     <ClInclude Include="shader_s.h" />
+    <ClInclude Include="Texture.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="0a-freetry.fs" />
+    <None Include="0a-freetry.vs" />
     <None Include="3.3.shader.fs" />
     <None Include="3.3.shader.vs" />
+    <None Include="5.1.transform.fs" />
+    <None Include="5.1.transform.vs" />
+    <None Include="6.3.coordinate_systems.fs" />
+    <None Include="6.3.coordinate_systems.vs" />
+    <None Include="6.light_cube.fs" />
+    <None Include="6.light_cube.vs" />
+    <None Include="6.multiple_lights.fs" />
+    <None Include="6.multiple_lights.vs" />
+    <None Include="7.4.camera.fs" />
+    <None Include="7.4.camera.vs" />
+    <None Include="planet.fs" />
+    <None Include="sun.fs" />
+    <None Include="vertex.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pic\awesomeface.png" />
+    <Image Include="pic\container.jpg" />
+    <Image Include="pic\container2.png" />
+    <Image Include="pic\container2_specular.png" />
+    <Image Include="pic\icoearth.jpg" />
+    <Image Include="pic\icomoon.jpg" />
+    <Image Include="pic\icosa_earth.bmp" />
+    <Image Include="pic\icosun.jpg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

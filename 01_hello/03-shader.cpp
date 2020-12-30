@@ -1,4 +1,4 @@
-#if 1
+#if 0
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
